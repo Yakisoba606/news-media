@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 const cors = require('cors')
 var cookieParser = require('cookie-parser')
 
-const mongoURL = 'mongodb+srv://codelab123:codelab123@newspj.ag9ndx7.mongodb.net/?retryWrites=true&w=majority&appName=newspj'
+const mongoURL = ''
 
 mongoose.connect(mongoURL).then(()=>{
     console.log('database connected...')
